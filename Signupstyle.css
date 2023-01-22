@@ -1,0 +1,45 @@
+label {
+  padding-left: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #748aa1;
+}
+
+ input {
+  background: #292e33;
+  border: 1px solid #33393f;
+  border-radius: 5px;
+  height: 42px;
+  margin-top: 6px;
+}
+.Middle select {
+    background: #292e33;
+  border: 1px solid #33393f;
+  border-radius: 5px;
+  height: 42px;
+  margin-top: 6px;
+}
+
+.SignUp-Button{
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.Blue-Button
+{
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.Light-Button{
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+

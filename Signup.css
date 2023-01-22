@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(./Illustration.png) center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#MainPage {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+.SignUp-Box {
+  width: 500px;
+  height: 700px;
+  background: #1f2327;
+  box-shadow: 0px 10px 40px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.Header {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.Middle {
+  width: 80%;
+  height: 400px;
+  background: #292e33;
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+input{
+  display: flex;
+  flex-direction: column;
+}
+.Two-Box {
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-between;
+  width: 100%;
+}
+.SignUp-Button {
+  margin-top: 10%;
+  border: none;
+  background: #29cb97;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  height: 15%;
+}
+.End {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.Blue-Button {
+  width: 44%;
+  height: 45px;
+  background: #255b9b;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 136% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Light-Button {
+  width: 44%;
+  height: 45px;
+  background: #00adee;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 136% */
+
+  text-align: center;
+
+  color: #ffffff;
+  border: none;
+}
+
+.Header h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  /* identical to box height, or 142% */
+
+  color: #ffffff;
+}
+
+.Header p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height, or 144% */
+
+  color: #748aa1;
+}
+
+.Email-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.Select-Country {
+  display: flex;
+  flex-direction: column;
+}
+.error {
+  font-size: 0.75rem;
+  color: red;
+  width: 100%;
+}
+
+.Redtext {
+  margin-top: 5px;
+  padding-left: 8px;
+}
+
+.inputError {
+  border: 1px solid red;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 503px) {
+  html {
+      font-size: 18px;
+  }
+
+  body {
+      background-image: none;
+  }
+
+  #MainPage {
+    width: 100vw;
+      height: 100vh;
+  }
+
+  .SignUp-Box {
+    margin: 0%;
+    height: 100vh;
+  }
+
+  input, button, select {
+      height: 2.45rem;
+      border-radius: 5px;
+  }
+
+  button, select {
+      font-size: 14px;
+  }
+}
+
+@media (max-width:450px){
+
+  .Middle {
+    width: 95%;
+  }
+  
+}
